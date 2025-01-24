@@ -1,0 +1,404 @@
+html {
+  background-color: #1b1b1b;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  padding: 0 10vw;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+nav {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-45%);
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-right: 2rem;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 0.5rem;
+}
+
+.current {
+  color: #ff0000;
+}
+
+.current::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #ff0000;
+  position: absolute;
+  margin-top: 0.5rem;
+  left: 3rem;
+  animation: fadeIn 0.6s forwards;
+}
+
+.notCurrent {
+  color: #fff;
+}
+
+.notCurrent::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #ff0000;
+  position: absolute;
+  margin-top: 0.5rem;
+  left: 3rem;
+  animation: fadeOut 1s forwards;
+}
+
+.me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+}
+
+.typing-container {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+  display: inline-block;
+}
+
+.cursor {
+  display: inline-block;
+  background-color: transparent;
+  width: 2px;
+  animation: blink 0.7s steps(1) infinite;
+  margin-left: -18px;
+}
+
+.frase {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.aboutMe p {
+  font-size: 1.3rem;
+  text-wrap: balance;
+  text-align: left;
+  max-width: 50ch;
+}
+
+.aboutMe article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-block: 6rem;
+  gap: 4rem;
+}
+
+.skills {
+  position: relative;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  border-spacing: 1rem;
+}
+
+table th {
+  background-color: #353535;
+  color: #fff;
+  font-weight: 700;
+  padding: 0.5rem;
+  font-size: 1.75rem;
+}
+
+table td {
+  padding: 0.5rem 1rem;
+}
+
+table tr:nth-child(odd) {
+  background-color: #353535;
+  color: #fff;
+  font-weight: 300;
+  padding: 0.5rem;
+}
+
+table tr:nth-child(even) {
+  background-color: #1b1b1b;
+  color: #fff;
+  font-weight: 300;
+  padding: 0.5rem;
+}
+
+.act {
+  display: flex;
+  align-items: center;
+}
+
+.portafolio,
+.experiencia {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.star {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.star img {
+  width: 20vw !important;
+  height: auto !important;
+  margin: auto;
+}
+
+.star_desc {
+  flex-direction: row !important;
+}
+
+.desc p {
+  text-wrap: balance;
+  text-align: left;
+  max-width: 60ch;
+}
+
+.others {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #353535;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.container:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s;
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.container:hover .vermas {
+  visibility: visible;
+  animation: fadeIn 0.6s forwards;
+}
+
+.vermas {
+  visibility: hidden;
+  text-align: left;
+  font-size: small;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #353535;
+  width: 100%;
+  height: 10vh;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+footer img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  list-style: none;
+  margin-right: 1rem;
+}
+
+.ventana {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  visibility: hidden;
+}
+
+.ventana-contenido {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 65%;
+  height: 75%;
+  background-color: rgb(207, 207, 207);
+  border-radius: 10px;
+  padding: 2rem;
+  color: #1b1b1b;
+  box-sizing: border-box;
+}
+
+.ventana-contenido div {
+  padding: 1rem;
+  padding-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  gap: 1rem;
+  align-items: start;
+  object-fit: contain;
+  overflow: auto;
+}
+
+.link {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #000;
+  border-radius: 0.5rem;
+
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+}
+
+.x {
+  width: 2%;
+  height: auto;
+  position: absolute;
+  top: 4rem;
+  right: 4rem;
+}
+
+.x:hover {
+  cursor: pointer;
+}
+
+.ventana-contenido div ul {
+  margin-top: 1rem; /* Espacio entre el párrafo y la lista */
+}
+
+.fotos {
+  display: grid;
+  grid-template-rows: 2fr 1fr; /* Fila superior 2fr, fila inferior 1fr */
+  grid-template-columns: 1fr 1fr !important; /* Dos columnas iguales */
+  overflow: hidden !important;
+}
+
+.fotos img:nth-child(1) {
+  grid-column: span 2; /* La primera imagen ocupa las dos columnas */
+}
+
+.fotos img {
+  width: 100%;
+  height: auto;
+}
+
+@keyframes fadeIn {
+  from {
+    left: 11rem;
+  }
+
+  to {
+    left: 2rem;
+  }
+}
+@keyframes fadeOut {
+  from {
+    left: 2rem;
+  }
+
+  to {
+    left: 11rem;
+  }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
