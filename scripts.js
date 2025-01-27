@@ -70,12 +70,7 @@ document.addEventListener("scroll", () => {
   sections.forEach((section) => {
     if (section.classList === maxVisibleSection.classList) {
       newSection = section.className;
-      console.log(newSection, oldSection);
       if (newSection === oldSection) return;
-      console.log(
-        document.querySelector(`#${newSection}`),
-        document.querySelector(`#${oldSection}`)
-      );
       document.querySelector(`#${newSection}`).classList.add("current");
       document.querySelector(`#${oldSection}`).classList.add("notCurrent");
       document.querySelector(`#${oldSection}`).classList.remove("current");
