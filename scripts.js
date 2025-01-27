@@ -109,3 +109,17 @@ function mostrarventana(titulo, texto, imagenes, link) {
 function ocultarventana() {
   document.querySelector(".ventana").style.visibility = "hidden";
 }
+
+function mostrarcreditos() {
+  document.querySelector(".creditos").classList.remove("salir");
+  document.querySelector(".creditos").classList.add("entrada");
+  document.querySelector(".creditos").style.visibility = "visible";
+}
+
+function ocultarcreditos() {
+  document.querySelector(".creditos").classList.remove("entrada");
+  document.querySelector(".creditos").classList.add("salir");
+  setTimeout(() => {
+    document.querySelector(".creditos").style.visibility = "hidden";
+}, 500);
+}

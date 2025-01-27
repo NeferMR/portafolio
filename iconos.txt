@@ -1,0 +1,25 @@
+LinkedIn: <a target="_blank" href="https://icons8.com/icon/60443/linkedin-circled">LinkedIn Circled</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
+Github: <a target="_blank" href="https://icons8.com/icon/12599/github">GitHub</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
+Python: <a target="_blank" href="https://icons8.com/icon/13441/python">Python</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
+Java: <a target="_blank" href="https://icons8.com/icon/Pd2x9GWu9ovX/java">Logotipo de Java Coffee Cup</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
+Javascript: <a target="_blank" href="https://icons8.com/icon/108784/javascript">Javascript</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
+TypeScript: <a target="_blank" href="https://icons8.com/icon/wpZmKzk11AzJ/typescript">mecanografiado</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
+Dart: <a target="_blank" href="https://icons8.com/icon/7AFcZ2zirX6Y/dart">dardo</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
+Html: <a target="_blank" href="https://icons8.com/icon/20909/html-5">html</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
+Css: <a target="_blank" href="https://icons8.com/icon/7gdY5qNXaKC0/css3">css</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
+React: <a target="_blank" href="https://icons8.com/icon/NfbyHexzVEDk/react">Reaccionar</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
+Next: <a target="_blank" href="https://icons8.com/icon/yUdJlcKanVbh/next.js">siguientejs</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
+Astro: <a target="_blank" href="https://icons8.com/icon/lckHFUP7nJhG/astro">astro</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
+Tailwind: <a target="_blank" href="https://icons8.com/icon/4PiNHtUJVbLs/tailwind-css">viento de cola_css</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
+Node.js: <a target="_blank" href="https://icons8.com/icon/hsPbhkOH4FMe/node-js">nodo-js</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
+Express: <a target="_blank" href="https://icons8.com/icon/kg46nzoJrmTR/express-js">expresar-js</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
+Nest: <a target="_blank" href="https://icons8.com/icon/9ESZMOeUioJS/nestjs">transportado</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
+Flask: <a target="_blank" href="https://icons8.com/icon/MHcMYTljfKOr/flask">matraz</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
+Azure: <a target="_blank" href="https://icons8.com/icon/VLKafOkk3sBX/azure">Azur</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
+Google cloud: <a target="_blank" href="https://icons8.com/icon/WHRLQdbEXQ16/google-cloud">nube de google</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
+Flutter: <a target="_blank" href="https://icons8.com/icon/7I3BjCqe9rjG/flutter">aleteo</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
+Docker: <a target="_blank" href="https://icons8.com/icon/22813/docker">Estibador</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
+MongoDB: <a target="_blank" href="https://icons8.com/icon/74402/mongodb">MongoDB</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
+MySQL: <a target="_blank" href="https://icons8.com/icon/T3OGfb1OU0RD/mysql-logo">mysql</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
+Git: <a target="_blank" href="https://icons8.com/icon/20906/git">Git</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
+Unity: <a target="_blank" href="https://icons8.com/icon/39848/unity">Unidad</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
