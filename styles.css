@@ -136,6 +136,7 @@ nav ul li {
   grid-template-columns: 1fr 1fr;
   margin-block: 6rem;
   gap: 4rem;
+  width: 100%;
 }
 
 .skills {
@@ -183,6 +184,7 @@ img {
 .act {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .portafolio,
@@ -456,5 +458,176 @@ footer ul li {
 
   50% {
     opacity: 0;
+  }
+}
+
+/* Media Queries para Responsividad */
+@media screen and (max-width: 1200px) {
+  html {
+    padding: 0 5vw;
+  }
+
+  .aboutMe article {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .star {
+    width: 70vw;
+  }
+
+  .others {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    padding: 0 2vw;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
+  nav {
+    position: static;
+    transform: none;
+    margin: 2rem 0;
+  }
+
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 0;
+  }
+
+  .me {
+    height: auto;
+    padding: 4rem 0;
+  }
+
+  .aboutMe p {
+    font-size: 1.1rem;
+  }
+
+  .others {
+    grid-template-columns: 1fr;
+  }
+
+  .star {
+    width: 90vw;
+  }
+
+  .ventana-contenido {
+    width: 90%;
+    height: 85%;
+  }
+
+  .ventana-contenido div {
+    grid-template-columns: 1fr;
+  }
+
+  .fotos {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr !important;
+  }
+
+  .fotos img:nth-child(1) {
+    grid-column: span 1;
+  }
+
+  footer {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem 0;
+    gap: 1rem;
+  }
+
+  .creditos {
+    width: 90%;
+    left: 5%;
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .typing-container {
+    font-size: 18px;
+  }
+
+  .frase {
+    font-size: 1.2rem;
+  }
+
+  table th {
+    font-size: 1.25rem;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+
+  .creditos {
+    padding: 1rem;
+  }
+
+  .creditos h1 {
+    font-size: 1.25rem;
+  }
+}
+
+/* Mejoras de accesibilidad y usabilidad */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Mejoras para dispositivos táctiles */
+@media (hover: none) {
+  .container:hover {
+    transform: none;
+  }
+  
+  .vermas {
+    visibility: visible;
+  }
+}
+
+/* Mejoras para modo oscuro */
+@media (prefers-color-scheme: dark) {
+  .ventana-contenido {
+    background-color: #2a2a2a;
+    color: #fff;
+  }
+  
+  .link {
+    background-color: #353535;
+    color: #fff;
+    border-color: #fff;
   }
 }
